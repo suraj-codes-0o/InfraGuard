@@ -4070,3 +4070,352 @@ body {
   white-space: normal;
   font-size: 11px;
 }
+
+/* =========================================================
+   INFRAGUARD HERO — FINAL RESPONSIVE NO-OVERLAP FIX
+   ========================================================= */
+
+/* MAIN HERO */
+.hero {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr) !important;
+  align-items: center !important;
+
+  gap: 50px !important;
+
+  width: 100%;
+  min-height: 520px;
+
+  padding: 55px 60px !important;
+
+  overflow: hidden;
+}
+
+/* ================= LEFT CONTENT ================= */
+
+.hero-copy {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  min-width: 0;
+}
+
+.hero-copy h2 {
+  max-width: 650px;
+
+  font-size: clamp(48px, 5vw, 72px);
+  line-height: 1.02;
+
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.hero-copy > p {
+  max-width: 570px;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ================= RIGHT SIDE ================= */
+
+.hero-visual {
+  position: relative !important;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 360px;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  transform: none !important;
+  margin: 0 !important;
+}
+
+/* ================= HEALTH WIDGET ================= */
+
+.health-widget {
+  position: relative !important;
+
+  width: 100%;
+  max-width: 440px;
+
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+
+  align-items: stretch;
+}
+
+/* ================= CITY HEALTH ================= */
+
+.health-ring {
+  grid-column: 1 / -1;
+
+  width: 100% !important;
+  height: auto !important;
+  min-height: 155px;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 24px 28px !important;
+
+  background: #ffffff !important;
+
+  border: 1px solid #e3e8ef;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(30, 40, 60, 0.06);
+}
+
+/* Remove old circular behavior */
+.health-center {
+  width: 100% !important;
+  height: auto !important;
+
+  display: block !important;
+
+  text-align: left;
+
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+/* CITY HEALTH */
+.health-center span {
+  display: block;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 1px;
+
+  color: #7a8598;
+}
+
+.health-center strong {
+  display: inline-block;
+
+  margin-top: 6px;
+
+  font-size: 44px;
+  line-height: 1;
+
+  color: #171a21;
+}
+
+.health-center small {
+  margin-left: 5px;
+
+  font-size: 13px;
+
+  color: #8a94a5;
+}
+
+/* HEALTH BAR */
+
+.health-center::after {
+  content: "";
+
+  display: block;
+
+  width: 100%;
+  height: 9px;
+
+  margin-top: 18px;
+
+  border-radius: 50px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #735cff 0%,
+      #009fc2 50%,
+      #65bd25 76%,
+      #edf0f4 76%
+    );
+}
+
+/* ================= STATS ================= */
+
+.float-card {
+  position: relative !important;
+
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+
+  inset: auto !important;
+
+  width: 100% !important;
+  min-width: 0 !important;
+
+  margin: 0 !important;
+
+  padding: 15px 12px !important;
+
+  display: flex !important;
+  align-items: center;
+  gap: 9px;
+
+  background: #ffffff;
+
+  border: 1px solid #e4e9ef;
+  border-radius: 15px;
+
+  box-shadow: 0 6px 20px rgba(30, 40, 60, 0.04);
+
+  transform: none !important;
+}
+
+.float-card span {
+  font-size: 10px;
+  white-space: normal !important;
+
+  color: #7b8698;
+}
+
+.float-card strong {
+  margin-top: 4px;
+
+  font-size: 16px;
+
+  color: #171a21;
+}
+
+/* ================= CAPTION ================= */
+
+.health-caption {
+  grid-column: 1 / -1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5px 0 0 !important;
+
+  font-size: 11px;
+
+  color: #788396;
+
+  white-space: normal !important;
+}
+
+/* =========================================================
+   MEDIUM SCREEN
+   ========================================================= */
+
+@media (max-width: 1250px) {
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.85fr) !important;
+
+    gap: 30px !important;
+
+    padding: 45px 40px !important;
+  }
+
+  .hero-copy h2 {
+    font-size: clamp(44px, 5vw, 62px);
+  }
+
+  .health-widget {
+    max-width: 390px;
+  }
+
+  .float-card {
+    padding: 13px 10px !important;
+  }
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+  .hero {
+    grid-template-columns: 1fr !important;
+
+    gap: 40px !important;
+
+    padding: 45px 35px !important;
+  }
+
+  .hero-copy {
+    max-width: 720px;
+  }
+
+  .hero-copy h2 {
+    max-width: 650px;
+
+    font-size: clamp(45px, 8vw, 65px);
+  }
+
+  .hero-visual {
+    min-height: auto;
+  }
+
+  .health-widget {
+    max-width: 650px;
+
+    margin: 0 auto;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+
+  .hero {
+    padding: 32px 20px !important;
+
+    gap: 32px !important;
+
+    border-radius: 20px;
+  }
+
+  .hero-copy h2 {
+    font-size: clamp(39px, 12vw, 52px);
+
+    letter-spacing: -2px;
+  }
+
+  .hero-copy > p {
+    font-size: 13px;
+  }
+
+  /* Stats become vertical */
+  .health-widget {
+    grid-template-columns: 1fr !important;
+  }
+
+  .health-ring,
+  .health-caption {
+    grid-column: 1;
+  }
+
+  .health-ring {
+    padding: 20px !important;
+  }
+
+  .health-center strong {
+    font-size: 38px;
+  }
+
+  .float-card {
+    min-height: 70px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+  }
+}
