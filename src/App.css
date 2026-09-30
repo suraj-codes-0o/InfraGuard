@@ -3734,3 +3734,43 @@ body {
     height: 190px;
   }
 }
+
+/* FIX CITY HEALTH CARD OVERLAP */
+
+.hero-visual {
+  position: relative;
+  min-height: 340px;
+  display: grid;
+  place-items: center;
+}
+
+.health-widget {
+  position: relative;
+  z-index: 5;
+}
+
+.health-ring {
+  width: 220px;
+  height: 220px;
+}
+
+.float-red {
+  top: 5px;
+  left: -55px;
+}
+
+.float-yellow {
+  top: 35px;
+  right: -65px;
+}
+
+.float-green {
+  right: -70px;
+  bottom: 5px;
+}
+
+.float-card {
+  min-width: 145px;
+  padding: 12px 14px;
+  z-index: 4;
+}
