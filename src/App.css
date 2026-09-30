@@ -3630,3 +3630,107 @@ body {
 .back-button {
   color: #626d7c;
 }
+
+/* ================================
+   FIX CITY HEALTH CARD OVERLAP
+   ================================ */
+
+.hero-visual {
+  position: relative;
+  min-height: 340px;
+  display: grid;
+  place-items: center;
+}
+
+/* Health circle always above clean space */
+.health-widget {
+  position: relative;
+  z-index: 5;
+}
+
+.health-ring {
+  width: 220px;
+  height: 220px;
+}
+
+/* Critical Assets - top left */
+.float-red {
+  top: 5px;
+  left: -55px;
+}
+
+/* Monitoring - top right */
+.float-yellow {
+  top: 35px;
+  right: -65px;
+}
+
+/* Healthy Assets - bottom right */
+.float-green {
+  right: -70px;
+  bottom: 5px;
+}
+
+/* Floating cards slightly wider */
+.float-card {
+  min-width: 145px;
+  padding: 12px 14px;
+  z-index: 4;
+}
+
+/* Make sure text stays readable */
+.float-card span {
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.float-card strong {
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    margin-top: 35px;
+    min-height: 390px;
+  }
+
+  .float-red {
+    left: 0;
+  }
+
+  .float-yellow {
+    right: 0;
+  }
+
+  .float-green {
+    right: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .float-card {
+    min-width: 120px;
+  }
+
+  .float-red {
+    left: -5px;
+  }
+
+  .float-yellow {
+    right: -5px;
+  }
+
+  .float-green {
+    right: -5px;
+  }
+
+  .health-ring {
+    width: 190px;
+    height: 190px;
+  }
+}
