@@ -3774,3 +3774,182 @@ body {
   padding: 12px 14px;
   z-index: 4;
 }
+
+/* ==================================================
+   FINAL HERO / CITY HEALTH OVERLAP FIX
+   ================================================== */
+
+.hero {
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 45px;
+  padding: 45px 55px;
+}
+
+/* Keep hero text above and inside its own area */
+.hero-copy {
+  position: relative;
+  z-index: 10;
+  min-width: 0;
+}
+
+.hero-copy h2 {
+  max-width: 590px;
+}
+
+/* City health section */
+.hero-visual {
+  position: relative;
+  min-height: 310px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  transform: translateX(25px);
+}
+
+/* Smaller circle */
+.health-ring {
+  width: 165px;
+  height: 165px;
+  padding: 7px;
+}
+
+.health-center strong {
+  font-size: 40px;
+}
+
+.health-center span {
+  font-size: 9px;
+}
+
+.health-center small {
+  font-size: 10px;
+}
+
+/* Floating cards smaller */
+.float-card {
+  min-width: 125px;
+  padding: 10px 12px;
+  z-index: 6;
+}
+
+.float-card span {
+  font-size: 10px;
+}
+
+.float-card strong {
+  font-size: 15px;
+}
+
+/* Critical Assets */
+.float-red {
+  top: 20px;
+  left: 5px;
+}
+
+/* Monitoring */
+.float-yellow {
+  top: 55px;
+  right: -5px;
+}
+
+/* Healthy Assets */
+.float-green {
+  right: 5px;
+  bottom: 15px;
+}
+
+/* Caption */
+.health-caption {
+  margin-top: 10px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+/* Medium screens */
+@media (max-width: 1200px) {
+  .hero {
+    grid-template-columns: 1.1fr 0.9fr;
+    padding: 40px;
+    gap: 25px;
+  }
+
+  .hero-copy h2 {
+    font-size: clamp(42px, 5vw, 58px);
+  }
+
+  .hero-visual {
+    transform: none;
+  }
+
+  .health-ring {
+    width: 150px;
+    height: 150px;
+  }
+
+  .float-card {
+    min-width: 115px;
+  }
+}
+
+/* Tablet / small screen */
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    margin-top: 30px;
+    min-height: 320px;
+  }
+
+  .health-ring {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+/* =========================================
+   BIGGER & BOLDER RISK BADGES
+   ========================================= */
+
+.risk-badge {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 7px 12px;
+  gap: 7px;
+  letter-spacing: 0.2px;
+}
+
+.risk-badge i {
+  width: 7px;
+  height: 7px;
+}
+
+/* High Risk */
+.risk-badge.high {
+  color: #d93664;
+  background: #fff0f4;
+  border: 1px solid #f3b9ca;
+}
+
+/* Medium Risk */
+.risk-badge.medium {
+  color: #b77b00;
+  background: #fff8e6;
+  border: 1px solid #f1d58d;
+}
+
+/* Low Risk */
+.risk-badge.low {
+  color: #4d8f13;
+  background: #f2fae8;
+  border: 1px solid #cbe7a8;
+}
+
+/* Other small priority/status tags */
+.task-priority,
+.task-status {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 6px 10px;
+}
