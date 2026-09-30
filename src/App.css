@@ -2623,3 +2623,1010 @@ tbody tr:hover {
     padding: 20px;
   }
 }
+
+/* =========================================================
+   INFRAGUARD — USER FRIENDLY READABILITY UPGRADE
+   ========================================================= */
+
+/* General readability */
+body {
+  font-size: 14px;
+}
+
+/* Sidebar */
+.brand h2 {
+  font-size: 18px;
+}
+
+.brand p {
+  font-size: 11px;
+  color: #9298a7;
+}
+
+.nav-label {
+  font-size: 10px;
+  color: #737a8a;
+}
+
+.nav-button {
+  font-size: 13px;
+  padding: 13px 14px;
+}
+
+.nav-icon {
+  font-size: 15px;
+}
+
+.sidebar-card strong {
+  font-size: 12px;
+}
+
+.sidebar-card span {
+  font-size: 10px;
+  color: #8a909d;
+}
+
+.sidebar-footer strong {
+  font-size: 12px;
+}
+
+.sidebar-footer span {
+  font-size: 10px;
+  color: #858b98;
+}
+
+/* Topbar */
+.eyebrow {
+  font-size: 10px;
+}
+
+.topbar h1 {
+  font-size: 28px;
+}
+
+.live-status {
+  font-size: 10px;
+  padding: 9px 13px;
+}
+
+/* Hero */
+.hero-tag {
+  font-size: 10px;
+  padding: 8px 12px;
+}
+
+.hero-copy > p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #a7abba;
+}
+
+.primary-button,
+.ghost-button {
+  font-size: 12px;
+  padding: 13px 18px;
+}
+
+.hero-mini-stats strong {
+  font-size: 17px;
+}
+
+.hero-mini-stats span {
+  font-size: 10px;
+  color: #858b99;
+}
+
+.health-center span {
+  font-size: 10px;
+}
+
+.health-center small {
+  font-size: 11px;
+}
+
+.health-caption {
+  font-size: 10px;
+}
+
+/* Floating cards */
+.float-card span {
+  font-size: 10px;
+}
+
+.float-card strong {
+  font-size: 14px;
+}
+
+/* Dashboard metric cards */
+.metric-card {
+  min-height: 120px;
+  padding: 20px;
+}
+
+.metric-card strong {
+  font-size: 25px;
+}
+
+.metric-card h4 {
+  font-size: 13px;
+}
+
+.metric-card p {
+  font-size: 11px;
+  color: #858b99;
+}
+
+/* Common panel headings */
+.panel-title > span,
+.page-intro > span,
+.section-heading > div > span {
+  font-size: 10px;
+}
+
+.panel-title h3 {
+  font-size: 18px;
+}
+
+.panel-title p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #858b99;
+}
+
+/* Risk section */
+.risk-bar-heading {
+  font-size: 12px;
+}
+
+.risk-footer span {
+  font-size: 10px;
+}
+
+.risk-footer button,
+.section-heading button {
+  font-size: 11px;
+}
+
+/* Alerts */
+.alert-item {
+  padding: 15px;
+}
+
+.alert-item strong {
+  font-size: 13px;
+}
+
+.alert-item p {
+  font-size: 11px;
+  line-height: 1.5;
+  color: #858b99;
+}
+
+.full-ghost,
+.card-action {
+  font-size: 11px;
+  padding: 11px 13px;
+}
+
+/* Priority section */
+.section-heading h3 {
+  font-size: 18px;
+}
+
+.section-heading p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #858b99;
+}
+
+.priority-card {
+  padding: 18px;
+}
+
+.priority-top > div > span {
+  font-size: 10px;
+}
+
+.priority-top h4 {
+  font-size: 14px;
+}
+
+.priority-top p {
+  font-size: 11px;
+  color: #858b99;
+}
+
+.health-row {
+  font-size: 11px;
+}
+
+/* Risk badges */
+.risk-badge {
+  font-size: 10px;
+  padding: 6px 10px;
+}
+
+/* Page intro */
+.page-intro {
+  max-width: 750px;
+}
+
+.page-intro p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #959aa8;
+}
+
+/* Asset cards */
+.asset-type {
+  font-size: 10px;
+}
+
+.asset-card h3 {
+  font-size: 18px;
+}
+
+.asset-location {
+  font-size: 11px;
+  color: #8a909d;
+}
+
+.asset-score > div:first-child > span {
+  font-size: 10px;
+}
+
+.asset-score > div:first-child small {
+  font-size: 11px;
+}
+
+.asset-meta span {
+  font-size: 10px;
+}
+
+.asset-meta strong {
+  font-size: 12px;
+}
+
+/* Asset detail */
+.back-button {
+  font-size: 12px;
+}
+
+.detail-main span {
+  font-size: 10px;
+}
+
+.detail-main h2 {
+  font-size: 27px;
+}
+
+.detail-main p {
+  font-size: 12px;
+}
+
+.small-metric span {
+  font-size: 11px;
+}
+
+.small-metric strong {
+  font-size: 21px;
+}
+
+/* Reasons */
+.reason-number {
+  font-size: 11px;
+}
+
+.reason-item strong {
+  font-size: 13px;
+}
+
+.reason-item p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: #858b99;
+}
+
+/* Recommendation */
+.recommend-label {
+  font-size: 10px;
+}
+
+.recommendation h3 {
+  font-size: 19px;
+}
+
+.recommendation p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #8e94a2;
+}
+
+/* Risk analysis form */
+.analysis-form-top span {
+  font-size: 10px;
+}
+
+.analysis-form-top h3 {
+  font-size: 17px;
+}
+
+.analysis-form label {
+  font-size: 12px;
+  margin: 16px 0 8px;
+}
+
+.analysis-form input,
+.analysis-form select {
+  padding: 13px;
+  font-size: 13px;
+}
+
+.prototype-text {
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+/* Empty/result state */
+.empty-state h3 {
+  font-size: 18px;
+}
+
+.empty-state p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.result-top > div > span {
+  font-size: 10px;
+}
+
+.result-top h3 {
+  font-size: 18px;
+}
+
+.result-score span {
+  font-size: 11px;
+}
+
+.result-score small {
+  font-size: 10px;
+}
+
+.result-meter > div:first-child {
+  font-size: 11px;
+}
+
+.reason-output > span {
+  font-size: 10px;
+}
+
+.output-reason {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.priority-output span {
+  font-size: 10px;
+}
+
+/* Maintenance */
+.task-index {
+  font-size: 10px;
+}
+
+.task-info strong {
+  font-size: 13px;
+}
+
+.task-info span {
+  font-size: 11px;
+  color: #858b99;
+}
+
+.task-priority,
+.task-status {
+  font-size: 10px;
+  padding: 6px 9px;
+}
+
+/* Better interaction */
+button,
+.asset-card,
+.priority-card,
+.alert-item {
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+/* Better text contrast */
+p {
+  letter-spacing: 0.05px;
+}
+
+/* Responsive readability */
+@media (max-width: 900px) {
+  .hero-copy > p,
+  .page-intro p {
+    font-size: 13px;
+  }
+
+  .nav-button {
+    font-size: 12px;
+  }
+}
+
+/* =========================================================
+   INFRAGUARD — WHITE / LIGHT UI THEME
+   Paste at the END of App.css
+   ========================================================= */
+
+:root {
+  --bg: #f5f7fb;
+  --bg-2: #ffffff;
+
+  --card: #ffffff;
+  --card-2: #f8fafc;
+
+  --border: #e5e9f0;
+
+  --text: #151821;
+  --muted: #687386;
+
+  --violet: #7c5cff;
+  --cyan: #009fc2;
+  --pink: #e94b7b;
+  --coral: #f46b4c;
+  --lime: #84c51f;
+  --green: #16a66a;
+  --yellow: #e5a900;
+}
+
+/* ================= BODY ================= */
+
+body {
+  background:
+    radial-gradient(
+      circle at 85% 5%,
+      rgba(124, 92, 255, 0.08),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 15% 85%,
+      rgba(0, 159, 194, 0.06),
+      transparent 25%
+    ),
+    #f5f7fb;
+
+  color: #151821;
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar {
+  background: rgba(255, 255, 255, 0.94);
+
+  border: 1px solid #e6e9ef;
+
+  box-shadow:
+    0 15px 45px rgba(28, 38, 60, 0.08);
+
+  backdrop-filter: blur(20px);
+}
+
+.brand h2 {
+  color: #151821;
+}
+
+.brand p {
+  color: #7c8595;
+}
+
+.nav-label {
+  color: #9aa2af;
+}
+
+.nav-button {
+  color: #626c7c;
+}
+
+.nav-button:hover {
+  color: #151821;
+  background: #f5f7fb;
+}
+
+.nav-button.active {
+  color: #151821;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(124, 92, 255, 0.12),
+      rgba(0, 159, 194, 0.05)
+    );
+
+  border-color: rgba(124, 92, 255, 0.15);
+}
+
+.nav-icon {
+  color: #7d8797;
+}
+
+.nav-button.active .nav-icon {
+  color: #7c5cff;
+}
+
+.sidebar-card {
+  background: #f7faef;
+  border-color: #dcebc3;
+}
+
+.sidebar-card strong {
+  color: #26301d;
+}
+
+.sidebar-card span {
+  color: #78826d;
+}
+
+.sidebar-footer {
+  border-color: #edf0f4;
+}
+
+.sidebar-footer strong {
+  color: #20242d;
+}
+
+.sidebar-footer span {
+  color: #8a929f;
+}
+
+/* ================= TOP BAR ================= */
+
+.eyebrow {
+  color: #8c95a4;
+}
+
+.topbar h1 {
+  color: #171a21;
+}
+
+.live-status {
+  color: #667080;
+  background: #ffffff;
+  border-color: #e4e8ee;
+
+  box-shadow: 0 5px 15px rgba(30, 40, 60, 0.04);
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  background:
+    radial-gradient(
+      circle at 78% 35%,
+      rgba(0, 159, 194, 0.09),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 95% 90%,
+      rgba(233, 75, 123, 0.07),
+      transparent 27%
+    ),
+    radial-gradient(
+      circle at 20% 0%,
+      rgba(124, 92, 255, 0.09),
+      transparent 30%
+    ),
+    #ffffff;
+
+  border-color: #e5e9ef;
+
+  box-shadow:
+    0 20px 60px rgba(35, 45, 70, 0.07);
+}
+
+.hero::after {
+  opacity: 0.6;
+
+  background-image:
+    linear-gradient(
+      rgba(30, 40, 60, 0.025) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(30, 40, 60, 0.025) 1px,
+      transparent 1px
+    );
+}
+
+.hero-tag {
+  color: #626d7e;
+  background: #f7f8fb;
+  border-color: #e5e8ee;
+}
+
+.hero-copy h2 {
+  color: #151821;
+}
+
+.hero-copy > p {
+  color: #697486;
+}
+
+.hero-mini-stats strong {
+  color: #171a21;
+}
+
+.hero-mini-stats span {
+  color: #7d8796;
+}
+
+/* ================= BUTTONS ================= */
+
+.primary-button {
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      100deg,
+      #7c5cff,
+      #009fc2
+    );
+
+  box-shadow:
+    0 10px 25px rgba(124, 92, 255, 0.18);
+}
+
+.primary-button:hover {
+  box-shadow:
+    0 14px 30px rgba(124, 92, 255, 0.25);
+}
+
+.ghost-button {
+  color: #495364;
+  background: #ffffff;
+  border-color: #dde2e9;
+}
+
+.ghost-button:hover {
+  color: #171a21;
+  background: #f5f7fb;
+}
+
+/* ================= HEALTH ================= */
+
+.health-center {
+  background: #ffffff;
+}
+
+.health-center span,
+.health-center small,
+.health-caption {
+  color: #778293;
+}
+
+.health-center strong {
+  color: #171a21;
+}
+
+/* ================= FLOAT CARDS ================= */
+
+.float-card {
+  background: rgba(255, 255, 255, 0.95);
+
+  border-color: #e4e8ef;
+
+  box-shadow:
+    0 12px 35px rgba(30, 40, 60, 0.09);
+}
+
+.float-card span {
+  color: #818b99;
+}
+
+.float-card strong {
+  color: #1b1e26;
+}
+
+/* ================= CARDS ================= */
+
+.metric-card,
+.glass-panel,
+.priority-section,
+.asset-card,
+.analysis-form,
+.analysis-output,
+.small-metric,
+.asset-detail-hero {
+  background: #ffffff;
+
+  border-color: #e5e9ef;
+
+  box-shadow:
+    0 8px 30px rgba(30, 40, 60, 0.045);
+}
+
+.metric-card:hover,
+.asset-card:hover,
+.priority-card:hover {
+  background: #ffffff;
+
+  box-shadow:
+    0 14px 35px rgba(30, 40, 60, 0.08);
+}
+
+/* ================= METRICS ================= */
+
+.metric-card strong,
+.metric-card h4 {
+  color: #1a1d25;
+}
+
+.metric-card p {
+  color: #7c8696;
+}
+
+/* ================= PANEL TEXT ================= */
+
+.panel-title h3,
+.section-heading h3,
+.page-intro h2 {
+  color: #171a21;
+}
+
+.panel-title p,
+.section-heading p,
+.page-intro p {
+  color: #727d8d;
+}
+
+/* ================= RISK BARS ================= */
+
+.risk-bar-heading span {
+  color: #626d7c;
+}
+
+.bar-track,
+.health-track {
+  background: #edf0f4;
+}
+
+.risk-footer {
+  border-color: #edf0f4;
+}
+
+.risk-footer span {
+  color: #8992a0;
+}
+
+/* ================= ALERTS ================= */
+
+.alert-item {
+  background: #fafbfc;
+  border-color: #e7eaf0;
+}
+
+.alert-item.critical {
+  background: #fff6f8;
+  border-color: #f4dce4;
+}
+
+.alert-item strong {
+  color: #20232b;
+}
+
+.alert-item p {
+  color: #747e8e;
+}
+
+.alert-icon {
+  background: #f2f4f8;
+}
+
+/* ================= PRIORITY ================= */
+
+.priority-card {
+  background: #fafbfc;
+  border-color: #e7eaf0;
+}
+
+.priority-top h4 {
+  color: #1c2028;
+}
+
+.priority-top p {
+  color: #788292;
+}
+
+.health-row {
+  color: #788292;
+}
+
+.health-row strong {
+  color: #252932;
+}
+
+.rank {
+  color: rgba(25, 30, 40, 0.06);
+}
+
+/* ================= ASSETS ================= */
+
+.asset-card h3 {
+  color: #1a1d24;
+}
+
+.asset-location {
+  color: #778292;
+}
+
+.asset-icon,
+.large-asset-icon {
+  background: #f5f7fa;
+  border-color: #e6e9ef;
+}
+
+.asset-score > div:first-child > span,
+.asset-meta span {
+  color: #8992a0;
+}
+
+.asset-score > div:first-child strong {
+  color: #171a21;
+}
+
+.asset-meta strong {
+  color: #3f4857;
+}
+
+/* ================= DETAILS ================= */
+
+.detail-main h2 {
+  color: #171a21;
+}
+
+.detail-main p {
+  color: #747f8e;
+}
+
+.small-metric span {
+  color: #7d8795;
+}
+
+.reason-item {
+  border-color: #edf0f4;
+}
+
+.reason-item strong {
+  color: #20242c;
+}
+
+.reason-item p {
+  color: #747e8e;
+}
+
+.recommendation p {
+  color: #707b8b;
+}
+
+/* ================= FORMS ================= */
+
+.analysis-form label {
+  color: #596474;
+}
+
+.analysis-form input,
+.analysis-form select {
+  color: #20242d;
+  background: #f8f9fb;
+  border-color: #dde2e9;
+}
+
+.analysis-form input:focus,
+.analysis-form select:focus {
+  background: #ffffff;
+  border-color: #7c5cff;
+
+  box-shadow:
+    0 0 0 3px rgba(124, 92, 255, 0.08);
+}
+
+.analysis-form select option {
+  color: #20242d;
+  background: white;
+}
+
+.prototype-text {
+  color: #8b94a2;
+}
+
+/* ================= ANALYSIS OUTPUT ================= */
+
+.empty-state h3,
+.result-top h3 {
+  color: #1a1d25;
+}
+
+.empty-state p {
+  color: #7b8594;
+}
+
+.result-score {
+  background: #f8f9fb;
+  border-color: #e5e9ef;
+}
+
+.result-score span,
+.result-score small {
+  color: #778292;
+}
+
+.output-reason {
+  color: #4e5969;
+  border-color: #edf0f4;
+}
+
+.priority-output {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(124, 92, 255, 0.08),
+      rgba(233, 75, 123, 0.04)
+    );
+
+  border-color: #e3dcfb;
+}
+
+.priority-output span {
+  color: #778292;
+}
+
+.priority-output h3 {
+  color: #7450d9;
+}
+
+/* ================= MAINTENANCE ================= */
+
+.task {
+  border-color: #edf0f4;
+}
+
+.task-info strong {
+  color: #20242d;
+}
+
+.task-info span {
+  color: #7d8795;
+}
+
+/* ================= GENERAL ================= */
+
+.full-ghost,
+.card-action {
+  color: #596474;
+  background: #f8f9fb;
+  border-color: #e3e7ed;
+}
+
+.full-ghost:hover,
+.card-action:hover {
+  color: white;
+  background: #7c5cff;
+  border-color: #7c5cff;
+}
+
+.back-button {
+  color: #626d7c;
+}
