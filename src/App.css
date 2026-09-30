@@ -4458,3 +4458,22 @@ body {
     margin: 0 auto !important;
   }
 }
+
+/* REMOVE COMPLETE CITY HEALTH SECTION */
+
+.hero-visual {
+  display: none !important;
+}
+
+/* Hero now uses full width */
+.hero {
+  grid-template-columns: 1fr !important;
+}
+
+.hero-copy {
+  max-width: 850px;
+}
+
+.hero-copy h2 {
+  max-width: 750px !important;
+}
